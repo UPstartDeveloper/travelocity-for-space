@@ -36,26 +36,52 @@
             <h2>Search for Trips</h2>
         </div>
     </div>
-    <div class="row bg-dark text-white">
+    <div class="row bg-dark text-white justify-content-center">
         <div class="col-md-4">
-            
+            <form class="form-inline offset-md-3">
+                <input type="search" class="form-control" placeholder="Where From?" aria-label="Search">
+            </form>
         </div>
         <div class="col-md-4">
-
+            <form class="form-inline offset-md-3">
+                <input type="search" class="form-control" placeholder="Where To?" aria-label="Search">
+            </form>
         </div>
         <div class="col-md-4">
-
+            <!-- Dropdown of Spacelines -->
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Which Spaceline Would You Like?
+                </button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">SpaceX</a>
+                    <a href="#" class="dropdown-item">Blue Origin</a>
+                    <a href="#" class="dropdown-item">Virgin Galactic</a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="row bg-dark text-white">
-        <div class="col-md-4">
-
+        <div class="col-md-3">
+            <form class="form-inline offset-md-3">
+                <input type="search" class="form-control" placeholder="Date" aria-label="Search">
+            </form>
         </div>
-        <div class="col-md-4">
-
+        <div class="col-md-3">
+            <form class="form-inline offset-md-3">
+                <input type="search" class="form-control" placeholder="Qt. of Tickets" aria-label="Search">
+            </form>
         </div>
-        <div class="col-md-4">
-
+        <div class="col-md-3 offset-md-1">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Type of Trip?
+                </button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">One-Way</a>
+                    <a href="#" class="dropdown-item">Roundtrip</a>
+                </div>
+            </div>
         </div>
     </div>
 
