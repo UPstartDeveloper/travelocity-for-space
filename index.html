@@ -98,13 +98,14 @@
     </div>
 
     <!-- HERO -->
-    <div class="jumbotron justify-content-center">
-        <h1>What's Out There?</h1>
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/libKVRa01L8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container">
+        <div class="jumbotron justify-content-center">
+            <h1>What's Out There?</h1>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/libKVRa01L8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
-
     <!-- FEATURES -->
     <div class="container">
         <h2>Why Space Velocity?</h2>
@@ -147,12 +148,27 @@
 
     <!-- SIGN UP FOR EMAIL -->
     <div class="jumbotron text-center mb-0">
-        <p class="lead text-white mb-4">Learn More, and Get Special Deals</p>
-        <div class="d-flex justify-content-center">
-            <form action="#" class="form-inline">
-                <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Email">
-                <button class="btn btn-primary mb-2">To the Stars!</button>
-            </form>
+        <button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#SignUpModal">Get Special Deals!</button>
+    </div>
+    <!-- Modal for Sign up -->
+    <div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="SignUpModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SignUpModalLabel">Welcome, Explorer!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class=" text-white">Sign up for email notifications on all our special deals!</p>
+                    <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Email">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal">To the Stars!</button>
+                    <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
 
