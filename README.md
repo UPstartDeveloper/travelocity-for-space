@@ -19,4 +19,7 @@ https://video.nationalgeographic.com/video/101-videos/0000015d-e652-d466-a57f-fe
 5. Jupiter image: https://cdn.britannica.com/66/155966-131-17B5B518.jpg
 6. Saturn image: https://cdn.images.dailystar.co.uk/dynamic/1/photos/846000/Alien-Life-NASA-Search-Saturn-Warm-Water-Life-Moon-Cassini-Enceladus-Probe-Tiger-Stripes-867846.jpg
 7. Neptune image: https://nationalpostcom.files.wordpress.com/2017/08/neptune-cropped.jpg
-8. Uranus image:
+8. Uranus image: http://i.huffpost.com/gen/2216154/images/o-URANUS-LIKE-PLANET-facebook.jpg
+9. Spreadsheet image: Photo by Carlos Muza on Unsplash
+10. Rock under night sky image: Photo by JOHN TOWNER on Unsplash
+11. White helmet: Photo by Alex Holyoake on Unsplash
