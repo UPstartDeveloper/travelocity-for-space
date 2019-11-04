@@ -4,3 +4,9 @@
     width: 100%;
     min-width: 400px;
 }
+
+body {
+    background-image: url(http://giphygifs.s3.amazonaws.com/media/6LTDrPjQR3QSA/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
