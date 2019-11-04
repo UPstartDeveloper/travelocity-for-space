@@ -1,4 +1,10 @@
 .carousel-item img {
-    height: auto;
-    width: auto;
+    min-height: 700px;
+    max-height: 1000px;
+    width: 100%;
+    min-width: 400px;
+}
+
+.featuredPic {
+    height: 200px;
 }
